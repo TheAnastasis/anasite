@@ -1,0 +1,8 @@
+theme: jekyll-theme-midnight
+
+# The theme's header reads these site-level values, not a page's front matter.
+title: Anastasia's Blog
+description: The somewhat updated blog of Anastasia - the girl who is obssessed with Tony Hawk's Project 8
+
+exclude:
+  - serve.sh

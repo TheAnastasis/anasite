@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// The theme only styles .credits inside #title, so restyle them for the footer.
+#site-footer {
+  clear: both;
+  margin-top: 50px;
+  overflow: hidden;
+
+  .credits {
+    font-size: 11px;
+    color: #696969;
+
+    &.left { float: left; }
+    &.right { float: right; }
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  #site-footer .credits {
+    display: block;
+    float: none;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+  }
+}
