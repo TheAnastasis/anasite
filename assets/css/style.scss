@@ -3,6 +3,17 @@
 
 @import "{{ site.theme }}";
 
+#site-nav {
+  margin: 10px 0 0;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+}
+
 // The theme only styles .credits inside #title, so restyle them for the footer.
 #site-footer {
   clear: both;
